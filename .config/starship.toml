@@ -1,0 +1,7 @@
+# Don't print a newline before each prompt
+add_newline = false
+
+# Have the prompt be on only one line
+[line_break]
+disabled = true
+

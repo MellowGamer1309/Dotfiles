@@ -1,0 +1,7 @@
+# Bat config file
+# The config for bat is just a list of command line args
+
+# Use spacevim-dark theme
+--theme="Dracula"
+
+--color=always

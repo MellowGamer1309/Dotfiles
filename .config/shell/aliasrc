@@ -1,0 +1,47 @@
+# Aliases
+# File to be sourced by shell configs
+# to automatically load aliases into the
+# current shell.
+
+# Alias for dotfiles git repo
+alias config="/usr/bin/git --git-dir=$HOME/.config/dots --work-tree=$HOME"
+
+# Use color on grep output
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+
+# Confirm before anything is overwritten
+# or deleted
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -Iv"
+
+# Have exa list all files, use color,
+# and list directories first
+#alias exa="exa -a --color=always --group-directories-first --icons"
+#alias ls="ls -A --color=always --group-directories-first"
+alias ls="exa -a --color=always --group-directories-first --icons"
+alias ll="exa -al --color=always --group-directories-first --icons"
+
+# human-readable sizes
+alias df='df -h'
+
+# show sizes in MB
+alias free='free -m'
+
+# I don't think more is used anymore :/
+alias more=less
+
+# Youtube-dl aliases
+alias yta="youtube-dl --extract-audio --add-metadata -o '~/Downloads/To Be Processed/%(title)s.%(ext)s'"
+alias ytv="youtube-dl --merge-output-format mkv --add-metadata -o '~/Downloads/To Be Processed/%(title)s.%(ext)s'"
+
+# Campdown aliases
+alias campdown="campdown --short --output '$HOME/Downloads/To Be Processed/Music/'"
+
+# Make programs use configs in $XDG_CONFIG_HOME
+alias dosbox="dosbox -conf ${XDG_CONFIG_HOME}/dosbox/dosbox.conf"
+alias nvidia-settings="nvidia-settings --config=${XDG_CONFIG_HOME}/nvidia/settings"
+
+alias nv="nvim"
