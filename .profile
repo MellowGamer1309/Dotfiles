@@ -35,6 +35,7 @@ export INPUTRC="$XDG_CONFIG_HOME/shell/inputrc"
 export LEIN_HOME="$XDG_DATA_HOME/lein"
 export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+export NUGET_PACKAGES="$XDG_CACHE_HOME/NuGetPackages"
 export PYLINTHOME="$XDG_CACHE_HOME/pylint"
 #export VIMINIT="if has("nvim") | so ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim | else | set nocp | so ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc | endif"
 export VIMINIT='let $MYVIMRC = !has("nvim") ? "$XDG_CONFIG_HOME/vim/vimrc" : "$XDG_CONFIG_HOME/nvim/init.vim" | so $MYVIMRC'
