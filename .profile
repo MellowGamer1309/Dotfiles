@@ -8,7 +8,7 @@ if [ -d "$HOME/.local/bin" ]; then
 fi
 
 export BROWSER="firefox"
-export EDITOR="vim"
+export EDITOR="nvim"
 
 # Set bat as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
