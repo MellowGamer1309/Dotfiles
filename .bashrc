@@ -82,4 +82,3 @@ ex () {
 }
 
 eval "$(starship init bash)"
-
