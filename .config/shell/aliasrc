@@ -45,3 +45,4 @@ alias dosbox="dosbox -conf ${XDG_CONFIG_HOME}/dosbox/dosbox.conf"
 alias nvidia-settings="nvidia-settings --config=${XDG_CONFIG_HOME}/nvidia/settings"
 
 alias nv="nvim"
+alias todo="todo.sh"
