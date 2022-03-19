@@ -7,6 +7,8 @@ if [ -d "$HOME/.local/bin" ]; then
     fi
 fi
 
+PATH="$PATH:$HOME/.dotnet/tools"
+
 export BROWSER="firefox"
 export EDITOR="nvim"
 

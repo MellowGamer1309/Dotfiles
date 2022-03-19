@@ -1,0 +1,29 @@
+shell = "{}"
+
+[[item]]
+file = "$HOME/.config/shell/colorsrc"
+template = "shell"
+hook = "sh -c 'source $HOME/.bashrc'"
+
+[[item]]
+file = "$HOME/.config/alacritty/alacritty.yml"
+template = "alacritty"
+subtemplate = "default-256"
+
+#[[item]]
+#file = "$HOME/.config/vim/vimrc"
+#template = "vim"
+#start = "\" Start flavours"
+#end  = "\" End flavours"
+
+[[item]]
+file = "$HOME/.config/bat/themes/bat.tmTheme"
+template = "textmate"
+rewrite = true
+hook = "sh -c 'bat cache --build'"
+
+[[item]]
+file = "$HOME/.config/xfce4/terminal/colorschemes/xfceterm.theme"
+template = "xfce4-terminal"
+rewrite = true
+
