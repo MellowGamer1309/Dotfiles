@@ -21,10 +21,10 @@ case ${TERM} in
 esac
 
 ### Shell colors ###
-source $XDG_CONFIG_HOME/shell/colorsrc
+[ -f $XDG_CONFIG_HOME/shell/colorsrc ] && source $XDG_CONFIG_HOME/shell/colorsrc
 
 ### ALIASES ###
-source $XDG_CONFIG_HOME/shell/aliasrc
+[ -f $XDG_CONFIG_HOME/shell/aliasrc ] && source $XDG_CONFIG_HOME/shell/aliasrc
 
 ### Shell Options ###
 
