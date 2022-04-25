@@ -28,6 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugs')
 
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+    Plug 'lambdalisue/suda.vim'
+
     Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
